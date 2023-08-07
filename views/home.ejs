@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <div class="hero">
+        <span class="follow">Follow count: <%=follow%></span>
+        <h1 class="title">TaleHub</h1>
+
+        <div class="login-signup">
+            <nav>
+
+                <ul>
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/signup">Sign-Up</a></li>
+                </ul>
+
+            </nav>
+        
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>
+
+<style>
+    html{
+        margin: 0px;
+        overflow-x: hidden;
+
+    }
+
+    body{
+        margin: 0px;
+    }
+
+    .hero{
+        width: 100%;
+        height: 630px;
+        padding: 4px;
+        background-image: url("https://image.lexica.art/full_jpg/fb6ee026-bb4e-4729-a21b-8ee4449a53eb");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .follow{
+        position: relative;
+        top: 30px;
+        border: solid;
+        color: aliceblue;
+        padding: 20px;
+    }
+
+    .title{
+        position: relative;
+        top: 240px;
+        left: 44%;
+        color: aliceblue;
+    }
+
+    
+
+    .login-signup{
+        position: relative;
+        bottom:85px;
+        left: 75%;
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 20px;
+    }
+    .login-signup a{
+        
+        border: solid;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+        text-decoration: none;
+        color: azure;
+    }
+</style>
